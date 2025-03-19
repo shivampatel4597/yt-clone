@@ -10,7 +10,7 @@ import yt from "../assets/yt.png";
 
 const Navbar = () => {
   return (  
-    <div className="flex justify-between px-6 py-2">
+    <div className="fixed top-0 w-[100%] bg-white flex justify-between px-6 py-2">
       <div className="  flex items-center space-x-6 cursor-pointer">
         <AiOutlineMenu className="h-[24px] w-[26px]" />{" "}
         <img src={yt} className="w-28 h-10 cursor-pointer" />
