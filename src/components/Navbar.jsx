@@ -30,7 +30,7 @@ const Navbar = () => {
           <IoMdMic className="h-[24px] w-[24px] " />
         </button>
       </div>
-      <div className="  flex items-center space-x-5">
+      <div className=" flex items-center space-x-5">
         <FaVideo className="h-[24px] w-[24px]  cursor-pointer" />
         <FaBell className="h-[24px] w-[24px] cursor-pointer" />
         <Avatar

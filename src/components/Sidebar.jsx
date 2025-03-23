@@ -77,7 +77,7 @@ const Sidebar = () => {
     "YouTube Kids",
   ];
   return (
-    <div className="w-[20%] px-5 h-[calc(100vh-6.625rem)] overflow-y-scroll oveflow-x-hidden mt-16">
+    <div className="w-[40%] px-5 h-[calc(100vh-6.625rem)] overflow-y-scroll oveflow-x-hidden ">
       <div className=" space-y-3   items-center ">
         {sidebarItems.map((item) => (
           <div
